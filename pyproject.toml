@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "video-scanner"
+version = "0.1.0"
+description = "YOLOv10 inference for document analysis with TensorRT API"
+authors = ["Iegor Mykhailov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ultralytics = "^8.3.18"
+pyqt6 = "^6.7.1"
+gradio = "^5.1.0"
+gradio-webrtc = "^0.0.5"
+twilio = "^9.3.4"
+onnxruntime-extensions = "^0.12.0"
+onnxruntime-gpu = "^1.19.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
